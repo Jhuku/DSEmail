@@ -8,6 +8,7 @@
 using namespace std;
 void file_update(char name[100],char password[100]);
 //first comment from V
+//Second comment from S
 struct inbox
 	{
 		char msg[100];
