@@ -190,6 +190,8 @@ void list::showInbox(char name[100])
 	}
 	
 
+
+//Adding a new user or Sign up. The new user is stored in a text file.
 void list::addUser(char name1[100],char password1[100])
 {
 	node *temp;
@@ -574,7 +576,7 @@ main()
 	{
 		if(obj.checkunique(name)==1)
 		{
-		obj.addUser(name,password);
+		obj.addUser(name,password);  //Sign up user
 		file_update(name,password);
 		records++;
 		system("cls");
@@ -652,7 +654,7 @@ main()
 									y++;
 							}
 							login_password[y]='\0';		
-							if(obj.check(login_name,login_password)==1)
+							if(obj.check(login_name,login_password)==1)//Loggin in....
 								{
 									//system("cls");
 									do{
