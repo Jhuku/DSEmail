@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 Shuvam$shuvam
 Priyam$priyam
 nikita$nikita
 
 vikas$vikas
+=======
+Shuvam$mymail
+>>>>>>> fff98a027058d7558924a8e4443fbbde8440b332
